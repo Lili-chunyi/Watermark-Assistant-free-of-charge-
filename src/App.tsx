@@ -1,6 +1,6 @@
 import React, { useState, useCallback } from 'react'
 import { Layout, Tabs, Collapse, message, Typography, Tag, ConfigProvider } from 'antd'
-import { SafetyCertificateOutlined, LockOutlined } from '@ant-design/icons'
+import { LockOutlined } from '@ant-design/icons'
 import zhCN from 'antd/locale/zh_CN'
 import FileUploader from './components/FileUploader'
 import FileList, { formatBytes } from './components/FileList'
@@ -311,10 +311,10 @@ const App: React.FC = () => {
             flexShrink: 0,
           }}
         >
-          <div style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
-            <SafetyCertificateOutlined style={{ fontSize: 24, color: '#fff' }} />
+          <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
+            <span style={{ fontSize: 26 }}>🍉</span>
             <Title level={4} style={{ color: '#fff', margin: 0 }}>
-              水印助手
+              水印助手-可批量加水印（永久免费）
             </Title>
           </div>
           <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
