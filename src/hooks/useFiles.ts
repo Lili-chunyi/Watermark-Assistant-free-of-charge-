@@ -36,7 +36,7 @@ export function useFiles() {
       }
 
       if (file.size > MAX_FILE_SIZE) {
-        message.error(`${file.name}：超过 50MB 限制，请压缩后再试`)
+        message.error(`${file.name}：超过 100MB 限制，请压缩后再试`)
         continue
       }
 
