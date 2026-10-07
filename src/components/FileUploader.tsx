@@ -45,7 +45,7 @@ const FileUploader: React.FC<FileUploaderProps> = ({ onFiles, loading = false })
             </p>
             <p className="ant-upload-text">点击或拖拽文件到此处上传</p>
             <p className="ant-upload-hint">
-              支持 JPG、PNG、WebP 和 PDF 格式，单个文件不超过100MB
+              支持 JPG、PNG、WebP 和 PDF 格式，单个文件不超过200MB
             </p>
           </>
         )}
